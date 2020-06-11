@@ -1,0 +1,48 @@
+.navbar-dark{
+    background-color: #33383d;
+}
+
+.my-awesome-font{
+    font-family: 'Metal Mania', cursive;
+}
+
+.my-awesome-font2{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: large;
+}
+body{
+    background-color:#343a40;
+    color: #343a40;
+    padding-top: 65px; 
+}
+
+
+.btn-outline,
+.btn-outline:hover {
+  border-color: green;
+}
+
+.btn-outline {
+  border-radius: var(--border-radius);
+}
+
+.btn-outline:hover {
+  box-shadow: inset 0 0 0 20rem var(--darken-1);
+}
+
+.btn-outline:active {
+  box-shadow: inset 0 0 0 20rem var(--darken-2),
+    inset 0 3px 4px 0 var(--darken-3),
+    0 0 1px var(--darken-2);
+}
+
+.btn-outline:disabled,
+.btn-outline.is-disabled {
+  opacity: .5;
+}
+
+.vl {
+    border-left: 2px dotted white;
+    height: 500px;
+    margin-top: 10px;
+  }
